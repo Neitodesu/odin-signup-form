@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/add-user.png" />
+    <title>Odin Sign Up Form</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="imageContainer">
+        <img
+          src="./assets/valentin-lacoste-5oBphmG4_pg-unsplash.jpg"
+          alt="calm easy night at a Chinese bar"
+          class="barImage"
+        />
+        <div class="odinContainer">
+          <img
+            src="./assets/odin-lined.png"
+            alt="Odin Project logo"
+            class="odinLogo"
+          />
+          <p>ODIN</p>
+        </div>
+        <p class="photoCredit">
+          Photo by
+          <a href="https://unsplash.com/@valentinlacoste">Valentin Lacoste</a>
+          on <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
+      <div class="formContainer">
+        <p class="heroText">
+          This is not a real online service! You know you need something like
+          this in your life to help realize your deepest dreams.<br />
+          Sign up <span>now</span> to get started.
+        </p>
+        <p class="subText">You <span>know</span> you want to</p>
+        <form>
+          <div class="mainSection">
+            <p>Let's do this!</p>
+            <div class="inputs">
+              <div class="formGroup">
+                <div>
+                  <label for="firstname">First Name</label>
+                  <input type="text" id="firstname" />
+                </div>
+                <div>
+                  <label for="userEmail">Email</label>
+                  <input type="email" id="userEmail" />
+                </div>
+                <div>
+                  <label for="userpass">Password</label>
+                  <input type="password" id="userpass" required />
+                </div>
+              </div>
+              <div class="formGroup">
+                <div>
+                  <label for="lastname">Last Name</label>
+                  <input type="text" id="lastname" />
+                </div>
+                <div>
+                  <label for="phone">Phone Number</label>
+                  <input type="text" id="phone" />
+                </div>
+                <div>
+                  <label for="confpass">Confirim Password</label>
+                  <input type="password" id="confpass" required />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Create Account</button>
+        </form>
+        <p class="login">Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </main>
+  </body>
+</html>
